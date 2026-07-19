@@ -1,6 +1,6 @@
 const links = [
   { label: 'GitHub', href: 'https://github.com/suatdurkaya' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/suatdurkaya' },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/suat-durkaya' },
   { label: 'Email', href: 'mailto:hello@suatdurkaya.dev' },
   { label: 'suatdurkaya.dev', href: 'https://suatdurkaya.dev' },
 ]

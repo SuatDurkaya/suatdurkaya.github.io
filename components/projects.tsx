@@ -4,28 +4,28 @@ const projects = [
     description:
       'Multi-cloud resource dashboard: brings AWS, Hetzner, and DigitalOcean resources into a single view. JWT-based authentication and real-time metrics with Prometheus.',
     tags: ['FastAPI', 'Docker', 'Prometheus'],
-    href: '#',
+    href: 'https://github.com/suatdurkaya/fleetview',
   },
   {
     name: 'SecureSight',
     description:
       'Flask-based SIEM dashboard. Log analysis, anomaly detection, and visualization with Chart.js — turning security events into something readable.',
     tags: ['Flask', 'SIEM', 'Chart.js'],
-    href: '#',
+    href: 'https://github.com/suatdurkaya/securesight',
   },
   {
     name: 'Server Dashboard',
     description:
       'Real-time server monitoring stack: Flask, Prometheus, Grafana, and Node Exporter. Packaged with Docker Compose, auto-deployed via GitHub Actions.',
     tags: ['Flask', 'Prometheus', 'Grafana', 'Docker Compose', 'GitHub Actions'],
-    href: '#',
+    href: 'https://github.com/suatdurkaya/server-dashboard',
   },
   {
     name: 'SSH Honeypot',
     description:
       'Medium-interaction SSH honeypot: fake shell, credential logging, and IP geolocation. Captured 1,800+ real brute-force attempts in 24 hours.',
     tags: ['Python', 'SSH', 'Security'],
-    href: '#',
+    href: 'https://github.com/suatdurkaya/ssh-honeypot',
   },
 ]
 
