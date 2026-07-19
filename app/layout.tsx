@@ -20,10 +20,46 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
 })
 
+const siteUrl = 'https://suatdurkaya.dev'
+const siteTitle = 'Suat Durkaya — Aspiring Platform Engineer'
+const siteDescription =
+  'DevOps / Platform Engineering portfolio of Suat Durkaya. Linux, Docker, AWS, Prometheus, Grafana — building systems that are understandable, repeatable, and reliable.'
+
 export const metadata: Metadata = {
-  title: 'Suat Durkaya — Aspiring Platform Engineer',
-  description:
-    'DevOps / Platform Engineering portfolio of Suat Durkaya. Linux, Docker, AWS, Prometheus, Grafana — building systems that are understandable, repeatable, and reliable.',
+  metadataBase: new URL(siteUrl),
+  title: siteTitle,
+  description: siteDescription,
+  keywords: [
+    'Suat Durkaya',
+    'Platform Engineer',
+    'DevOps',
+    'Linux',
+    'Docker',
+    'AWS',
+    'Prometheus',
+    'Grafana',
+  ],
+  openGraph: {
+    type: 'website',
+    url: siteUrl,
+    title: siteTitle,
+    description: siteDescription,
+    siteName: 'Suat Durkaya',
+    images: [
+      {
+        url: '/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Suat Durkaya — Aspiring Platform Engineer, pixel art card',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteTitle,
+    description: siteDescription,
+    images: ['/images/og-image.png'],
+  },
   generator: 'v0.app',
 }
 
