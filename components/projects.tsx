@@ -60,6 +60,8 @@ export function Projects() {
             </ul>
             <a
               href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-1 font-mono text-xs text-primary transition-[filter] hover:brightness-110"
             >
               {'view project →'}
