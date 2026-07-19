@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: siteTitle,
   description: siteDescription,
+  alternates: {
+    canonical: '/',
+  },
   keywords: [
     'Suat Durkaya',
     'Platform Engineer',
